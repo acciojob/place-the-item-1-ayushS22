@@ -1,2 +1,57 @@
 
 /* Your CSS Code here. */
+.container{
+	display:flex;
+	justify-content:space-between;
+}
+#div1 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+}
+#div2 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+}
+#div3 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+}
+.containers{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+}
+#id1 ,#id2,#id3,#id4,#id5,#id6,#id7{
+
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+}
+#id1{
+	background-color:red;
+}
+#id2{
+	background-color:blue;
+}
+#id3{
+	background-color:green;
+}
+#id4{
+	background-color:green;
+}
+#id5{
+	background-color:green;
+}
+#id6{
+	background-color:green;
+}
+#id7{
+	background-color:green;
+}
+
